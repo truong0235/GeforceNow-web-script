@@ -1,0 +1,1 @@
+# GeforceNow-web-script
