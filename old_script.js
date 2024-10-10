@@ -1,9 +1,8 @@
 javascript:(function() {
     var audioElements = [];
     var isPlaying = false;
-    var confirmation, headerElement;
-    var audio1 =
-    var audio2 =;
+    var headerElement;
+    var audio1, audio2;
     function createAudio(src) {
       var audio = new Audio(src);
       audio.loop = true;
@@ -20,7 +19,7 @@ javascript:(function() {
         audioElements.splice(index, 1);
       }
     }
-    audio1 = createAudio('https://github.com/truong0235/random-stuff/raw/main/audio-file/mp3-now.com%20-%2060%20seconds%20of%20silence_64kbps.mp3');
+    audio1 = createAudio('https://github.com/truong0235/GeforceNow-web-script/raw/main/audio/30_seconds_of_silence.mp3');
   
     function notifyconfirm() {
       alert("XD");
@@ -33,7 +32,7 @@ javascript:(function() {
       headerElement = document.querySelector('.font-header4');    
       if (headerElement) {
         if (!isPlaying) {
-          audio2 = createAudio('https://github.com/truong0235/random-stuff/raw/main/audio-file/pickupCoin.wav');
+          audio2 = createAudio('https://github.com/truong0235/GeforceNow-web-script/raw/main/audio/Usagi_Flap.ogg');
           isPlaying = true;
           setTimeout(notifyconfirm, 15000);
         }
