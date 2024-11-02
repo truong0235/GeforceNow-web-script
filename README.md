@@ -21,8 +21,8 @@ javascript:(function() {
 ```
 3. Go through your bookmark list.
 4. Edit your new bookmark:
-  - Edit your bookmark name as you like, you will need it when you want to use the script (my_script for example).
-  - Change the url to the script you copy above.
+    - Edit your bookmark name as you like, you will need it when you want to use the script (my_script for example).
+    - Change the url to the script you copy above.
 5. Save it, and youre done the setup part.
 
 ## Use the script
