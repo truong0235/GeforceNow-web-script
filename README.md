@@ -29,8 +29,8 @@ javascript:(function() {
 1. Open Geforce Now website on your browser.
 2. Tap on the URL bar, type your bookmark name you have set from above step (my_script for example), **click** on the bookmark when you see it.
 3. Now you can join the queue, and let your browser run in the background, it will play sound when its end the wait time.
-  1. To check if the scipt is running or nut, look at the notification and see if your browser is playing audio or not.
-  2. To stop the script, simply refresh the tab (i dont have enough skill to make a menu for it).
+    * To check if the scipt is running or nut, look at the notification and see if your browser is playing audio or not.
+    * To stop the script, simply refresh the tab (i dont have enough skill to make a menu for it).
 # Disclaimer
 
 I do not own the audio files [30_seconds_of_silence.mp3](https://www.youtube.com/watch?v=O51uFhJGf5s); [Usagi_Flap.ogg](https://www.youtube.com/watch?v=toPWvdaC84w), if you dont want your resource being used, please let me know by create issue ticket. 
