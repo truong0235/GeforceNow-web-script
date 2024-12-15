@@ -53,6 +53,7 @@ const isAutoPlay = async (audio) => {
             audio2.play();
             setTimeout(() => {
               alert("XD");
+              audio2.pause();
             }, 2000);
             clearInterval(checkLoadingElement);
           }
