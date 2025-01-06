@@ -33,12 +33,11 @@ async function main() {
 			var handleLoading = setInterval(() => {
 				if (isLoading()) {
 					clearInterval(handleLoading);
-					audio2.play().then(() => {
-					alert('XD');
-					  audio2.pause();
-					}).catch(error => {
-					  console.log('cant play the alert audio');
-					});
+					audio2.play();
+					setTimeout(() => {
+						alert('XD');
+						audio2.pause();
+					}, 2000);
 				}
 			}, 1500);
 		}
