@@ -36,7 +36,7 @@ async function main() {
 					audio2.play();
 					setTimeout(() => {
 						alert('XD');
-						audio2.pause();
+						setTimeout(() => {audio2.pause();}, 1000);
 					}, 2000);
 				}
 			}, 1500);

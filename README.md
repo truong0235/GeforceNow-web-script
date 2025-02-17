@@ -9,7 +9,7 @@ This script will help you keep your android browser run in the back ground, and 
 2. Copy the code above.
 ```javascript
 javascript:(function() {
-    var url = 'https://raw.githubusercontent.com/truong0235/GeforceNow-web-script/refs/heads/main/new-script.js';
+    var url = 'https://raw.githubusercontent.com/truong0235/GeforceNow-web-script/refs/heads/main/new-new-script.js';
     fetch(url)
         .then(response => response.text())
         .then(text => {
